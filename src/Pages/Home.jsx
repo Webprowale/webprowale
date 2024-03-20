@@ -9,14 +9,14 @@ import WorkWith from "../Components/WorkWith";
 function Home() {
   return (
     <div className="container-fluid px-lg-5 py-3 mt-4">
-      <div className=" row " style={{ gap: "20px" }}>
-        <div className="col-lg d-flex flex-column align-items-lg-end align-items-center">
+      <div className=" row px-auto " style={{ gap: "20px" }}>
+        <div className="col-lg d-flex flex-column ">
           <Biography />
           <div className="d-none d-lg-block p-0">
           <SeeLatestWork />
           </div>
         </div>
-        <div className="col-lg d-flex flex-column ps-lg-0 ps-3 align-items-center">
+        <div className="col-lg d-flex flex-column ps-lg-0 ps-3">
           <div
             className="d-flex px-lg-0"
             style={{ gap: "1.2rem" }}
@@ -29,7 +29,7 @@ function Home() {
           <SeeLatestWork />
           </div>
         </div>
-        <div className="col-lg d-flex flex-column align-items-lg-start align-items-center p-0">
+        <div className="col-lg d-flex flex-column  p-0 ">
           <Experience />
           <WorkWith />
         </div>

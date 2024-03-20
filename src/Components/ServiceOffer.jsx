@@ -10,20 +10,20 @@ function ServiceOffer() {
     >
       <h4 className="fs-2 fw-bold mb-3 ">Service Offer</h4>
       <div className="row" style={{justifyContent:"space-evenly"}}>
-        <div className="col-lg-6 d-flex flex-column pt-2 align-items-start">
-          <img src={graphic} width={200} />
+        <div className="col d-flex flex-column pt-2 ">
+          <img src={graphic} className='img-fluid' />
           <small className="fw-bold ms-4 fs-6">Graphic Design</small>
         </div>
-        <div className="col-lg-6 d-flex flex-column align-items-start">
-          <img src={seo} width={200} height={130} />
+        <div className="col d-flex flex-column">
+          <img src={seo} className='img-fluid' />
           <small className="fw-bold fs-6">SEO Optimization</small>
         </div>
-        <div className="col-lg-6 d-flex flex-column align-items-start">
-          <img src={web} width={200} height={130} />
+        <div className="col d-flex flex-column">
+          <img src={web} className='img-fluid' />
           <small className="fw-bold fs-6 ">Web Development</small>
         </div>
-        <div className="col-lg-6 d-flex flex-column align-items-start">
-          <img src={appD} width={200} />
+        <div className="col d-flex flex-column ">
+          <img src={appD} className='img-fluid' />
           <small className="fw-bold fs-6">App Development</small>
         </div>
       </div>
