@@ -6,6 +6,7 @@ import SocialIcon from "../Components/SocialIcon";
 import ServiceOffer from "../Components/ServiceOffer";
 import Experience from "../Components/Experience";
 import WorkWith from "../Components/WorkWith";
+import SkillTools from "../Components/SkillTools";
 function Home() {
   return (
     <div className="container-fluid px-lg-5 py-3 mt-4">
@@ -16,20 +17,24 @@ function Home() {
           <SeeLatestWork />
           </div>
         </div>
-        <div className="col-lg d-flex flex-column ps-lg-0 ps-3">
+        <div className="col-lg">
           <div
-            className="d-flex px-lg-0"
-            style={{ gap: "1.2rem" }}
+            className="row"
           >
+            <div className="col-6">
             <Title />
+            </div>
+            <div className="col-6">
             <SocialIcon />
+            </div>
           </div>
+          <SkillTools />
           <ServiceOffer />
           <div className="d-block d-lg-none p-0">
           <SeeLatestWork />
           </div>
         </div>
-        <div className="col-lg d-flex flex-column  p-0 ">
+        <div className="col-lg d-flex flex-column  px-2 ">
           <Experience />
           <WorkWith />
         </div>

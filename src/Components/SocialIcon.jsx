@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function SocialIcon() {
   return (
     <div
-      className="rounded shadow px-3 py-3 d-flex flex-column conn1 hon1"
+      className="rounded shadow px-1 pt-2 d-flex flex-column "
     >
-      <div className="d-flex mx-auto">
+      <div className="d-flex">
         <div className="shadow  socialCon mx-2">
          <Link target='_blank' to='https://github.com/Webprowale'><i className="fab fa-github"></i></Link>
         </div>
@@ -14,9 +14,9 @@ function SocialIcon() {
          <Link target='_blank' to='https://www.linkedin.com/in/webprowale-akinwale'> <i className="fab fa-linkedin-in"></i> </Link>
         </div>
       </div>
-      <div className="d-flex mt-2 ms-3 align-items-center" >
-        <h3 className='smal small fw-semibold me-lg-5'>Connect Me</h3>
-       <Link target='_blank' to='https://www.linkedin.com/in/webprowale-akinwale' ><i className="fas fa-arrow-circle-right fs-5 primaryColor me-2"></i></Link>
+      <div className="d-flex mt-3 ms-2 align-items-center mb-0" >
+        <h3 className='smal small fw-semibold'>Connect Me</h3>
+       <Link target='_blank' to='https://www.linkedin.com/in/webprowale-akinwale' ><i className="fas fa-arrow-circle-right fs-5 primaryColor "></i></Link>
     </div>
     </div>
   );
