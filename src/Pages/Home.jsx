@@ -9,7 +9,7 @@ import WorkWith from "../Components/WorkWith";
 import SkillTools from "../Components/SkillTools";
 function Home() {
   return (
-    <div className="container-fluid px-lg-5 py-3 mt-4">
+    <div className="container-fluid px-lg-5 py-3 pt-5">
       <div className=" row px-auto " style={{ gap: "20px" }}>
         <div className="col-lg d-flex flex-column ">
           <Biography />

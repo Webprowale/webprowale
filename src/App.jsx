@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 import Navber from './Components/Navber'
 import { Route, Routes } from 'react-router-dom'
 import About from './Pages/About'
