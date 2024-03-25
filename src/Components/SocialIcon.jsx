@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function SocialIcon() {
   return (
     <div
-      className="rounded shadow px-1 pt-2 d-flex flex-column conn1"
+      className="rounded shadow px-1 pt-2 d-flex flex-column con1"
     >
         <h3 className='smal small fw-semibold my-1'>Connect Me</h3>
       <div className="d-flex px-2">

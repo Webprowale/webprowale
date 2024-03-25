@@ -17,10 +17,8 @@ a{
     text-decoration: none;
     color:inherit;
 }
-nav{
-    font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+.btn1:hover{
+  background-color: var(--tartiary-color);
 }
 .primaryColor{
     color: var(--primary-color);
@@ -30,16 +28,6 @@ nav{
 }
 li{
     list-style: none;
-}
-.offcanvas-end{
-    width: 80% !important;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    padding-top: 15px;
-    background-color: var(--secondary-color);
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
 }
 .small{
     font-size: 0.9rem;
@@ -55,39 +43,16 @@ li{
     }
 }
 .con1{
-    
     border-inline: 1px solid var(--primary-color);
 }
-.conn1{
-    
-    border-inline: 1px solid var(--primary-color);
-}
+
 .hon1{
     height: 150px;
 }
-.con2{
-    
-    border-inline: 1px solid var(--primary-color);
-}
-.con3{
-    
-    border-inline: 1px solid var(--primary-color);
-}
+
 @media (max-width:834px) {
-    .con1{
-        
-    }
-    .conn1{
-        
-    }
     .hon1{
         height: 98px;
-    }
-    .con2{
-        
-    }
-    .con3{
-        
     }
     .socialCon{
         width: 50px;
@@ -111,4 +76,5 @@ li{
         margin-left: 14px !important;
         font-size: 0.86rem !important;
     }
+    
 }

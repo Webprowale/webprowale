@@ -7,9 +7,10 @@ import ServiceOffer from "../Components/ServiceOffer";
 import Experience from "../Components/Experience";
 import WorkWith from "../Components/WorkWith";
 import SkillTools from "../Components/SkillTools";
+import Footer from "../Components/Footer";
 function Home() {
   return (
-    <div className="container-fluid px-lg-5 py-3 pt-5">
+    <div className="container-fluid px-lg-5 pt-5">
       <div className=" row px-auto " style={{ gap: "20px" }}>
         <div className="col-lg d-flex flex-column ">
           <Biography />
@@ -28,17 +29,28 @@ function Home() {
             <SocialIcon />
             </div>
           </div>
+          <div className="d-lg-none">
           <SkillTools />
+          </div>
+          <div className="d-none d-lg-block">
+          <Experience />
+          </div>
           <ServiceOffer />
           <div className="d-block d-lg-none p-0">
           <SeeLatestWork />
           </div>
         </div>
         <div className="col-lg d-flex flex-column  px-2 ">
-          <Experience />
+          <div className="d-none d-lg-block mb-4">
+        <SkillTools />
+        </div>
+        <div className="d-lg-none">
+        <Experience />
+        </div>
           <WorkWith />
         </div>
       </div>
+      <Footer />
     </div>
 
   );

@@ -3,10 +3,10 @@ import web from "../Images/web1.png";
 import { Link } from "react-router-dom";
 function SeeLatestWork() {
   return (
-    <div className="rounded shadow px-3 pt-2 d-flex flex-column mt-3 pb-2 con1">
-      <div className="mx-auto mt-3">
-        <h6 className="fs-6 fw-semibold">See My</h6>
-        <h5 className="fs-6 fw-bold ms-4 mb-3">Latest Work</h5>
+    <div className="rounded shadow px-3 pt-2 d-flex flex-column  mt-2 con1">
+      <div className="mx-auto mt-1">
+        <h6 className="fs-4 fw-bold">See My</h6>
+        <h5 className="fs-5 fw-bold ms-4 ">Latest Work</h5>
       </div>
       <div className="d-flex flex-column">
         <div className="rounded shadow p-2">
@@ -33,7 +33,7 @@ function SeeLatestWork() {
           </p>
         </div>
       </div>
-      <p className="fw-semibold mt-4">All project <span><Link target="_blank" to='https://github.com/Webprowale'><i class="fas fa-external-link-alt"></i></Link></span></p>
+      <p className="fw-semibold mt-2">All project <span><Link target="_blank" to='https://github.com/Webprowale'><i class="fas fa-external-link-alt"></i></Link></span></p>
     </div>
   );
 }

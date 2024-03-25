@@ -6,24 +6,24 @@ import seo from '../Images/seo.png'
 function ServiceOffer() {
   return (
     <div
-      className="rounded mt-3 shadow px-3 py-3 d-flex flex-column con2"
+      className="rounded mt-3 shadow px-3 py-3 d-flex flex-column con1"
     >
       <h4 className="fs-2 fw-bold mb-3 ">Service Offer</h4>
       <div className="row" style={{justifyContent:"space-evenly"}}>
-        <div className="col d-flex flex-column pt-2 ">
+        <div className="col col-6 d-flex flex-column pt-2 ">
           <img src={graphic} className='img-fluid' />
           <small className="fw-bold ms-4 fs-6">Graphic Design</small>
         </div>
-        <div className="col d-flex flex-column">
+        <div className="col col-6 d-flex flex-column">
           <img src={seo} className='img-fluid' />
           <small className="fw-bold fs-6">SEO Optimization</small>
         </div>
-        <div className="col d-flex flex-column">
-          <img src={web} className='img-fluid' />
+        <div className="col col-6 d-flex flex-column">
+          <img src={web} className='img-fluid '  style={{maxWidth: "8rem"}} />
           <small className="fw-bold fs-6 ">Web Development</small>
         </div>
-        <div className="col d-flex flex-column ">
-          <img src={appD} className='img-fluid' />
+        <div className="col col-6 d-flex flex-column">
+          <img src={appD} className='img-fluid' style={{maxWidth: "10rem"}}/>
           <small className="fw-bold fs-6">App Development</small>
         </div>
       </div>
