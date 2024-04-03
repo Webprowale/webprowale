@@ -2,7 +2,7 @@ import React from "react";
 
 function SkillTools() {
   return (
-    <div className="rounded shadow px-4 pt-2 d-flex flex-column con1">
+    <div className="rounded shadow px-4 pt-2 d-flex flex-column con1 mt-2">
       <h4 className="mt-3 fs-5 fw-bold">My contributions</h4>
       <p className="text-start">
         As a Full-stack Web Developer, I excel in harmonizing captivating

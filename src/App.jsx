@@ -1,23 +1,23 @@
-import { useState } from 'react'
+import { Children, useState } from 'react'
 import Navber from './Components/Navber'
 import { Route, Routes } from 'react-router-dom'
-import About from './Pages/About'
 import Home from './Pages/Home'
-import SeeLatestWork from './Components/SeeLatestWork'
+import Blog from './Pages/Blog'
+import Footer from './Components/Footer'
+import UseLayout from './Components/UseLayout'
 
 
 function App() {
 
   return (
-    <div className="container-fluid px-1 py-3 app">
-     <Navber />
-     
+    <div className="container-fluild py-3">
+    <UseLayout>
      <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
+      <Route path='/blog' element={<Blog />} />
      </Routes>
-     <footer></footer>
-    </div>
+     </UseLayout>
+     </div>
   )
 }
 

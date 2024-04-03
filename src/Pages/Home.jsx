@@ -8,6 +8,7 @@ import Experience from "../Components/Experience";
 import WorkWith from "../Components/WorkWith";
 import SkillTools from "../Components/SkillTools";
 import Footer from "../Components/Footer";
+import UseLayout from "../Components/UseLayout";
 function Home() {
   return (
     <div className="container-fluid px-lg-5 pt-5">
@@ -50,7 +51,6 @@ function Home() {
           <WorkWith />
         </div>
       </div>
-      <Footer />
     </div>
 
   );
