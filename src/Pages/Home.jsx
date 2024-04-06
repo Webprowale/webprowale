@@ -21,7 +21,7 @@ function Home() {
         </div>
         <div className="col-lg">
           <div
-            className="row"
+            className="row mb-3"
           >
             <div className="col-6">
             <Title />

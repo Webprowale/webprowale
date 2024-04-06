@@ -3,8 +3,8 @@ import Dev from "../Images/webb2.png";
 import { Link } from "react-router-dom";
 function Biography() {
   return (
-    <div className="rounded shadow px-3 pt-2 d-flex flex-column con1">
-      <div className=" primaryBg rounded mb-3">
+    <div className="rounded shadow px-3 pt-2 d-flex flex-column con1 mb-2">
+      <div className=" primaryBg rounded mb-1">
         <img src={Dev} className="img-fluid" height={100} />
       </div>
       <h3 className=" primaryColor rounded fs-6 fw-bold">I'm Webprowale</h3>
@@ -14,6 +14,7 @@ function Biography() {
         building responsive interfaces, optimizing performance, or enhancing
         accessibility cross the globe
       </p>
+      <Link to='/resume' className="btn fw-semibold primaryBg text-white mb-3">View Resume</Link>
     </div>
   );
 }
