@@ -2,7 +2,8 @@ import React from "react";
 
 function SkillTools() {
   return (
-    <div className="rounded shadow px-4 pt-2 d-flex flex-column con1 mt-2">
+    <div className="rounded shadow px-4 pt-2 d-flex flex-column con1 mt-2" data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom">
       <h4 className="mt-3 fs-5 fw-bold">My contributions</h4>
       <p className="text-start">
         As a Full-stack Web Developer, I excel in harmonizing captivating
@@ -24,7 +25,7 @@ function SkillTools() {
           <h6 className="col-4 btn shadow primaryColor">Git</h6>
           <h6 className="col-4 btn shadow primaryColor">GitHub</h6>
         </div>
-        <div className="mx-auto shadow rounded">
+        <div className="mx-auto shadow rounded mb-3">
         <marquee>Ensuring A Dynamic And Efficient Approach To Every Project.</marquee>
       </div>
     </div>

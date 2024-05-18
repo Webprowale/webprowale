@@ -3,7 +3,8 @@ import web from "../Images/web1.png";
 import { Link } from "react-router-dom";
 function SeeLatestWork() {
   return (
-    <div className="rounded shadow px-3 pt-2 d-flex flex-column  mt-2 con1">
+    <div className="rounded shadow px-3 pt-2 d-flex flex-column  mt-2 con1" data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom">
       <div className="mx-auto mt-1">
         <h6 className="fs-4 fw-bold">See My</h6>
         <h5 className="fs-5 fw-bold ms-4 ">Latest Work</h5>
