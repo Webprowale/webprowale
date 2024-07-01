@@ -1,5 +1,5 @@
 import React from 'react';
-import Pdf from '../Components/webprowale.pdf';
+import Pdf from '../Components/webprowale-main.pdf'; 
 
 function Resume() {
   return (

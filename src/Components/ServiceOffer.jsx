@@ -6,8 +6,7 @@ import graphic from "../Images/graphics.png";
 import seo from "../Images/seo.png";
 function ServiceOffer() {
   return (
-    <div className="rounded mt-3 shadow px-3 py-3 d-flex flex-column con1"data-aos="fade-up"
-    data-aos-anchor-placement="bottom-bottom">
+    <div className="rounded mt-3 shadow px-3 py-3 d-flex flex-column con1">
       <h4 className="fs-2 fw-bold mb-3 ">Service Offer</h4>
       <div className="row" style={{ justifyContent: "space-evenly" }}>
         <div className="col col-6 d-flex flex-column pt-2 ">
