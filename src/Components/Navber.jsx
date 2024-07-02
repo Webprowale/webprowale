@@ -7,6 +7,7 @@ function Navber() {
         <Link className="navbar-brand fs-3 fw-bold" to='/'>
           Web<span className="primaryColor">pro</span>wale
         </Link>
+
         </div>
     </nav>
   );

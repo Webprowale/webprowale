@@ -10,7 +10,7 @@ function Biography() {
         <img src={Dev} className="img-fluid" height={100} />
         </LazyLoad>
       </div>
-      <h3 className=" primaryColor rounded fs-6 fw-bold">I'm Webprowale</h3>
+      <h3 className=" primaryColor rounded fs-6 fw-bold mt-2">I'm Joshua Akinwale(Webprowale)</h3>
       <p className="lead small fw-semibold">
         Crafting Tomorrow's Web for a Better Experience
       <br />
