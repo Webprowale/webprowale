@@ -16,15 +16,19 @@ function SkillTools() {
           <h6 className="col-4 btn shadow primaryColor">HTML</h6>
           <h6 className="col-4 btn shadow primaryColor">CSS</h6>
           <h6 className="col-4 btn shadow primaryColor">Bootstrap</h6>
+          <h6 className="col-4 btn shadow primaryColor">Tailwind</h6>
           <h6 className="col-4 btn shadow primaryColor">JavaScript</h6>
+          <h6 className="col-4 btn shadow primaryColor">Typescript</h6>
           <h6 className="col-4 btn shadow primaryColor"> React</h6>
+          <h6 className="col-4 btn shadow primaryColor">Nextjs</h6>
           <h6 className="col-4 btn shadow primaryColor">React Native</h6>
           <h6 className="col-4 btn shadow primaryColor">PHP</h6>
+          <h6 className="col-4 btn shadow primaryColor">Codeigniter</h6>
           <h6 className="col-4 btn shadow primaryColor">MySQL</h6>
           <h6 className="col-4 btn shadow primaryColor">Git</h6>
           <h6 className="col-4 btn shadow primaryColor">GitHub</h6>
         </div>
-        <div className="mx-auto shadow rounded mb-3">
+        <div className="mx-auto shadow rounded mb-3 mt-2">
         <marquee>Ensuring A Dynamic And Efficient Approach To Every Project.</marquee>
       </div>
     </div>

@@ -2,7 +2,6 @@ import { Children, useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import Blog from './Pages/Blog'
-import Footer from './Components/Footer'
 import UseLayout from './Components/UseLayout'
 import Resume from './Pages/Resume';
 
