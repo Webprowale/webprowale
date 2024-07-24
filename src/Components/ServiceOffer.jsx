@@ -4,7 +4,18 @@ import web from "../Images/web1.png";
 import appD from "../Images/app.png";
 import graphic from "../Images/graphics.png";
 import seo from "../Images/seo.png";
+import { useRef } from 'react';
+import { gsap } from 'gsap';
+import { useGSAP } from '@gsap/react';
 function ServiceOffer() {
+  const con = useRef(null);
+  useGSAP(()=>{
+    gsap.from(con.current, {
+      duration:3.5,
+      ease: "bounce.out",
+      y: 200
+      });
+  })
   return (
     <div className="rounded mt-3 shadow px-3 py-3 d-flex flex-column con1">
       <h4 className="fs-2 fw-bold mb-3 ">Service Offer</h4>

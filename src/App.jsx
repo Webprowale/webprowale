@@ -4,8 +4,6 @@ import Home from './Pages/Home'
 import Blog from './Pages/Blog'
 import UseLayout from './Components/UseLayout'
 import Resume from './Pages/Resume';
-
-
 function App() {
 
   return (

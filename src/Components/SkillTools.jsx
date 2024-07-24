@@ -1,8 +1,18 @@
 import React from "react";
-
+import { useRef } from 'react';
+import { gsap } from 'gsap';
+import { useGSAP } from '@gsap/react';
 function SkillTools() {
+  const con = useRef(null);
+  useGSAP(()=>{
+    gsap.from(con.current, {
+      duration:3.5,
+      ease: "power",
+      y: 100
+      });
+  })
   return (
-    <div className="rounded shadow px-4 pt-2 d-flex flex-column con1 mt-2" >
+    <div className="rounded shadow px-4 pt-2 d-flex flex-column con1 mt-2" ref={con} >
       <h4 className="mt-3 fs-5 fw-bold">My contributions</h4>
       <p className="text-start">
         As a Full-stack Web Developer, I excel in harmonizing captivating

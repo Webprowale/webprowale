@@ -15,8 +15,7 @@ function Home() {
       <div className=" row px-auto " style={{ gap: "20px" }}>
         <div className="col-lg d-flex flex-column ">
           <Biography />
-          <div className="d-none d-lg-block p-0" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">
+          <div className="d-none d-lg-block p-0">
           <SeeLatestWork />
           </div>
         </div>

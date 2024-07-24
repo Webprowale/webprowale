@@ -1,9 +1,20 @@
 import React from "react";
 import web from "../Images/web1.png";
 import { Link } from "react-router-dom";
+import { useRef } from 'react';
+import { gsap } from 'gsap';
+import { useGSAP } from '@gsap/react';
 function SeeLatestWork() {
+  const con = useRef(null);
+  useGSAP(()=>{
+    gsap.from(con.current, {
+      duration:3.5,
+      ease: "bounce.out",
+      y: 200
+      });
+  })
   return (
-    <div className="rounded shadow px-3 pt-2 d-flex flex-column  mt-2 con1">
+    <div className="rounded shadow px-3 pt-2 d-flex flex-column  mt-2 con1" ref={con}>
       <div className="mx-auto mt-1">
         <h6 className="fs-4 fw-bold">See My</h6>
         <h5 className="fs-5 fw-bold ms-4 ">Latest Work</h5>
