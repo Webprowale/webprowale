@@ -21,9 +21,9 @@ function SeeLatestWork() {
       </div>
       <div className="d-flex flex-column">
         <div className="rounded shadow p-2">
-          <Link target="_blank" to="https://nymous.netlify.app/">
+          <Link target="_blank" to="https://nymous-app.netlify.app/">
             <div className="d-flex align-items-end justify-content-end">
-              <Link target="_blank" to="https://nymous.netlify.app/">
+              <Link target="_blank" to="https://nymous-app.netlify.app/">
                 <i class="fas fa-external-link-alt"></i>
               </Link>
             </div>
