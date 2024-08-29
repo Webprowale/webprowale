@@ -4,6 +4,9 @@ import Home from './Pages/Home'
 import Blog from './Pages/Blog'
 import UseLayout from './Components/UseLayout'
 import Resume from './Pages/Resume';
+import BlogDetail from './Pages/BlogDetail'
+import Assest from './Pages/Assest'
+
 function App() {
 
   return (
@@ -12,6 +15,8 @@ function App() {
      <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/blog' element={<Blog />} />
+      <Route path='/blog/:id' element={<BlogDetail />} />
+      <Route path='/assest/:id' element={<Assest />} />
       <Route path='/resume' element={<Resume />} />
      </Routes>
      </UseLayout>
