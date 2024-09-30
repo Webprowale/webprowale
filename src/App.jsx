@@ -6,6 +6,7 @@ import UseLayout from './Components/UseLayout'
 import Resume from './Pages/Resume';
 import BlogDetail from './Pages/BlogDetail'
 import Assest from './Pages/Assest'
+import Payment from './Pages/Payment'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Route path='/blog/:id' element={<BlogDetail />} />
       <Route path='/assest/:id' element={<Assest />} />
       <Route path='/resume' element={<Resume />} />
+      <Route path='/pay' element={<Payment />} />
      </Routes>
      </UseLayout>
      </div>

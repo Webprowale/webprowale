@@ -16,12 +16,15 @@
     "aos": "^2.3.4",
     "axios": "^1.7.3",
     "dotenv": "^16.4.5",
+    "formik": "^2.4.6",
     "gsap": "^3.12.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-lazyload": "^3.2.1",
+    "react-paystack": "^6.0.0",
     "react-router-dom": "^6.22.3",
-    "typed.js": "^2.1.0"
+    "typed.js": "^2.1.0",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
