@@ -33,13 +33,12 @@ function SkillTools() {
           <h6 className="col-4 btn shadow primaryColor">Nextjs</h6>
           <h6 className="col-4 btn shadow primaryColor">Nodejs</h6>
           <h6 className="col-4 btn shadow primaryColor">Nestjs</h6>
-          <h6 className="col-4 btn shadow primaryColor">React Native</h6>
           <h6 className="col-4 btn shadow primaryColor">PHP</h6>
           <h6 className="col-4 btn shadow primaryColor">Codeigniter</h6>
              <h6 className="col-4 btn shadow primaryColor">Laravel</h6>
           <h6 className="col-4 btn shadow primaryColor">MySQL</h6>
-          <h6 className="col-4 btn shadow primaryColor">Git</h6>
-          <h6 className="col-4 btn shadow primaryColor">GitHub</h6>
+          <h6 className="col-4 btn shadow primaryColor">Vision Control & CL/CD</h6>
+       
         </div>
         <div className="mx-auto shadow rounded mb-3 mt-2">
         <marquee>Ensuring A Dynamic And Efficient Approach To Every Project.</marquee>
