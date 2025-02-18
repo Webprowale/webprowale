@@ -31,9 +31,12 @@ function SkillTools() {
           <h6 className="col-4 btn shadow primaryColor">Typescript</h6>
           <h6 className="col-4 btn shadow primaryColor"> React</h6>
           <h6 className="col-4 btn shadow primaryColor">Nextjs</h6>
+          <h6 className="col-4 btn shadow primaryColor">Nodejs</h6>
+          <h6 className="col-4 btn shadow primaryColor">Nestjs</h6>
           <h6 className="col-4 btn shadow primaryColor">React Native</h6>
           <h6 className="col-4 btn shadow primaryColor">PHP</h6>
           <h6 className="col-4 btn shadow primaryColor">Codeigniter</h6>
+             <h6 className="col-4 btn shadow primaryColor">Laravel</h6>
           <h6 className="col-4 btn shadow primaryColor">MySQL</h6>
           <h6 className="col-4 btn shadow primaryColor">Git</h6>
           <h6 className="col-4 btn shadow primaryColor">GitHub</h6>
