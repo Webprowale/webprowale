@@ -36,7 +36,7 @@ function SkillTools() {
           <h6 className="col-4 btn shadow primaryColor">PHP</h6>
           <h6 className="col-4 btn shadow primaryColor">Codeigniter</h6>
              <h6 className="col-4 btn shadow primaryColor">Laravel</h6>
-          <h6 className="col-4 btn shadow primaryColor">MySQL</h6>
+          <h6 className="col-4 btn shadow primaryColor">MySQL PostgreSQL</h6>
           <h6 className="col-4 btn shadow primaryColor">Vision Control & CL/CD</h6>
        
         </div>
