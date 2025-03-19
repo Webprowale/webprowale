@@ -34,17 +34,29 @@ function SeeLatestWork() {
             </p>
           </Link>
         </div>
-        <div className="rounded shadow p-2">
-          <Link target="_blank" to="https://writereadme.netlify.app/">
+         <div className="rounded shadow p-2">
+          <Link target="_blank" to="https://pikup-control.vercel.app/">
             <div className="d-flex align-items-end justify-content-end">
-              <Link target="_blank" to="https://writereadme.netlify.app/">
+              <Link target="_blank" to="https://pikup-control.vercel.app/">
                 <i class="fas fa-external-link-alt"></i>
               </Link>
             </div>
-            <h5 className="fw-bold fs-6">WriteReadme</h5>
+            <h5 className="fw-bold fs-6">pikup admin</h5>
             <p>
-              A platform that generate a readme file for you by choosing a
-              pre-made template to start.
+              A fully admin webiste with nextjs, to see all the activities going on their app
+            </p>
+          </Link>
+        </div>
+        <div className="rounded shadow p-2">
+          <Link target="_blank" to="https://pikup-six.vercel.app/">
+            <div className="d-flex align-items-end justify-content-end">
+              <Link target="_blank" to="https://pikup-six.vercel.app/">
+                <i class="fas fa-external-link-alt"></i>
+              </Link>
+            </div>
+            <h5 className="fw-bold fs-6">Pikup Website</h5>
+            <p>
+              Pikup webiste for recieve waitlist
             </p>
           </Link>
         </div>
