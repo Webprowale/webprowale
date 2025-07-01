@@ -20,6 +20,19 @@ function SeeLatestWork() {
         <h5 className="fs-5 fw-bold ms-4 ">Latest Work</h5>
       </div>
       <div className="d-flex flex-column">
+         <div className="rounded shadow p-2">
+          <Link target="_blank" to="https://www.sonicnota.com/">
+            <div className="d-flex align-items-end justify-content-end">
+              <Link target="_blank" to="https://www.sonicnota.com/">
+                <i class="fas fa-external-link-alt"></i>
+              </Link>
+            </div>
+            <h5 className="fw-bold fs-6">Sonicnota</h5>
+            <p>
+              Build an AI wrapper that generates transcripts from your voice recordings using Whisper on Replicate and summarizes them
+            </p>
+          </Link>
+        </div>
         <div className="rounded shadow p-2">
           <Link target="_blank" to="https://nymous-app.netlify.app/">
             <div className="d-flex align-items-end justify-content-end">
