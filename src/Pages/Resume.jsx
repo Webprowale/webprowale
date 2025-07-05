@@ -1,5 +1,5 @@
 import React from 'react';
-import Pdf from '../Components/webprowale-main.pdf'; 
+import Pdf from '../Components/Joshua_Akinwale_1.pdf';
 
 function Resume() {
   return (

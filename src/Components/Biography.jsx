@@ -24,10 +24,11 @@ function Biography() {
       </div>
       <h3 className="primaryColor rounded fs-6 fw-bold mt-2">I'm Joshua Akinwale(Webprowale)</h3>
       <p className="lead small fw-semibold">
-        Crafting Tomorrow's Web for a Better Experience
+        Building Scalable Web Experiences That Power Innovation
         <br />
-        building responsive interfaces, optimizing performance, or enhancing
-        accessibility across the globe
+        As a seasoned Full-Stack Software Engineer, I specialize in delivering robust, scalable, and high-performance digital solutions using modern JavaScript frameworks and battle-tested PHP technologies.
+        <br />
+        Whether it's building interactive React/Next.js interfaces, designing powerful NestJS backends, or developing RESTful and GraphQL APIs with Laravel or CodeIgniter, I bring five years of hands-on experience to every project, crafting systems that perform reliably at scale.
       </p>
       <Link to='/resume' className="btn fw-semibold primaryBg text-white mb-3">View Resume</Link>
     </div>
