@@ -22,7 +22,7 @@ function SkillTools() {
 
   return (
     <div className="rounded shadow px-4 pt-2 d-flex flex-column con1 mt-2" ref={con}>
-      <h4 className="mt-3 fs-5 fw-bold">My Contributions</h4>
+      <h4 className="mt-3 fs-5 fw-bold">My Core Contributions</h4>
       <p className="text-start">
         As a seasoned Full-Stack Software Engineer, I specialize in building reliable and scalable web systems using modern technologies like <strong>ReactJS, NextJS, NodeJS, and NestJS</strong> on the JavaScript side, as well as <strong>PHP, Laravel, and CodeIgniter</strong> for full-stack and backend development.
       </p>
