@@ -39,6 +39,93 @@ function SeeLatestWork() {
       </p>
 
       <div className="d-flex flex-column">
+
+        <div className="rounded shadow p-2 mb-2">
+            <Link target="_blank" to="https://thejobwise.com/">
+    <div className="d-flex align-items-end justify-content-end">
+ <i className="fas fa-external-link-alt"></i>
+    </div>
+    <h5 className="fw-bold fs-6">Backend Engineer – TheJobwise</h5>
+    <p>
+      Engineered the backend for TheJobwise, an AI-powered job‐matching platform. Built with Node.js, NestJS, and PostgreSQL, I developed RESTful APIs for application flows, AI-driven resume processing, and user account management—ensuring performance at scale and a smooth user experience.
+    </p>
+    <div className="mt-1">
+      <span className="badge bg-dark me-1">Node.js</span>
+      <span className="badge bg-primary me-1">NestJS</span>
+      <span className="badge bg-info text-dark me-1">PostgreSQL</span>
+      <span className="badge bg-warning text-dark me-1">REST API</span>
+    </div>
+    </Link>
+  </div>
+
+
+        {/* Afrohealth */}
+        <div className="rounded shadow p-2 mb-2">
+          <Link target="_blank" to="https://afrohealth.care/">
+            <div className="d-flex align-items-end justify-content-end">
+              <i className="fas fa-external-link-alt"></i>
+            </div>
+            <h5 className="fw-bold fs-6">
+              Senior Full Stack Developer – Afrohealth
+            </h5>
+            <p>
+              Led development of a healthcare recruitment and training portal,
+              providing certification information, immigration support, and job
+              matching services. Integrated user flows for candidates and
+              employers, optimized data handling, and ensured site reliability and
+              responsiveness.
+            </p>
+            <div className="mt-1">
+              <span className="badge bg-primary me-1">Laravel</span>
+              <span className="badge bg-info text-dark me-1">MySQL</span>
+              <span className="badge bg-success me-1">API Optimization</span>
+            </div>
+          </Link>
+        </div>
+
+        {/* Konvas AI */}
+        <div className="rounded shadow p-2 mb-2">
+          <Link target="_blank" to="https://konvas.ai/">
+            <div className="d-flex align-items-end justify-content-end">
+              <i className="fas fa-external-link-alt"></i>
+            </div>
+            <h5 className="fw-bold fs-6">Backend Engineer – Konvas AI</h5>
+            <p>
+              Built and maintained REST APIs using PHP (Laravel), processing
+              10k+ daily requests Optimized MySQL queries to speed up reporting
+              tools and data-heavy endpoints Integrated Shopify storefronts via
+              GraphQL to support client-side personalization Built Shopify app
+              for the company and used PHP (codeigniter).
+            </p>
+            <div className="mt-1">
+              <span className="badge bg-dark me-1">PHP</span>
+              <span className="badge bg-primary me-1">Codeigniter/Laravel</span>
+              <span className="badge bg-success me-1">MYSQL</span>
+            </div>
+          </Link>
+        </div>
+
+        {/* FortuneTimer */}
+        <div className="rounded shadow p-2 mb-2">
+           <Link target="_blank" to="https://bet.eazyply.com/">
+          <div className="d-flex align-items-end justify-content-end">
+             <i className="fas fa-external-link-alt"></i>
+          </div>
+          <h5 className="fw-bold fs-6">Full Stack Developer – FortuneTimer</h5>
+          <p>
+            Developed a dynamic sports-betting platform using Laravel.
+            Implemented real-time odds display, user authentication, and betting
+            flows with seamless UI/UX and secure transaction handling. Also
+            develop API for the mobile app.
+          </p>
+          <div className="mt-1">
+            <span className="badge bg-primary me-1">Laravel</span>
+            <span className="badge bg-info text-dark me-1">MySQL</span>
+            <span className="badge bg-warning text-dark me-1">REST API</span>
+          </div>
+          </Link>
+        </div>
+
         {/* Sonicnota */}
 
         <div className="rounded shadow p-2 mb-2">
