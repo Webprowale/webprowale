@@ -39,25 +39,63 @@ function SeeLatestWork() {
       </p>
 
       <div className="d-flex flex-column">
+        <div className="rounded shadow p-2 mb-2">
+          <Link target="_blank" to="https://immigify.com/">
+            <div className="d-flex align-items-end justify-content-end">
+              <i className="fas fa-external-link-alt"></i>
+            </div>
+            <h5 className="fw-bold fs-6">Lead Engineer – Immigify</h5>
+            <p>
+              Led the engineering team in building Immigify’s AI-powered
+              immigration and recruitment platform. Directed development of an
+              AI Interview system with Laravel (backend), ReactJS (frontend),
+              and Python on Azure for AI/ML model training and deployment.
+              Configured and optimized cloud servers, implemented RESTful APIs,
+              and integrated dual databases — MySQL for the core Laravel
+              application and PostgreSQL as a vector store to support AI-driven
+              candidate evaluation. Oversaw CI/CD pipelines, infrastructure, and
+              team mentorship to ensure scalable, secure, and high-performing
+              delivery.
+            </p>
+            <div className="mt-1">
+              <span className="badge bg-dark me-1">Laravel</span>
+              <span className="badge bg-primary me-1">ReactJS</span>
+              <span className="badge bg-warning text-dark me-1">
+                Python (AI/ML)
+              </span>
+              <span className="badge bg-info text-dark me-1">Azure AI</span>
+              <span className="badge bg-success me-1">Server Config</span>
+              <span className="badge bg-secondary me-1">MySQL</span>
+              <span className="badge bg-secondary me-1">
+                PostgreSQL (Vector DB)
+              </span>
+              <span className="badge bg-danger me-1">CI/CD</span>
+              <span className="badge bg-dark me-1">REST API</span>
+            </div>
+          </Link>
+        </div>
 
         <div className="rounded shadow p-2 mb-2">
-            <Link target="_blank" to="https://thejobwise.com/">
-    <div className="d-flex align-items-end justify-content-end">
- <i className="fas fa-external-link-alt"></i>
-    </div>
-    <h5 className="fw-bold fs-6">Backend Engineer – TheJobwise</h5>
-    <p>
-      Engineered the backend for TheJobwise, an AI-powered job‐matching platform. Built with Node.js, NestJS, and PostgreSQL, I developed RESTful APIs for application flows, AI-driven resume processing, and user account management—ensuring performance at scale and a smooth user experience.
-    </p>
-    <div className="mt-1">
-      <span className="badge bg-dark me-1">Node.js</span>
-      <span className="badge bg-primary me-1">NestJS</span>
-      <span className="badge bg-info text-dark me-1">PostgreSQL</span>
-      <span className="badge bg-warning text-dark me-1">REST API</span>
-    </div>
-    </Link>
-  </div>
-
+          <Link target="_blank" to="https://thejobwise.com/">
+            <div className="d-flex align-items-end justify-content-end">
+              <i className="fas fa-external-link-alt"></i>
+            </div>
+            <h5 className="fw-bold fs-6">Backend Engineer – TheJobwise</h5>
+            <p>
+              Engineered the backend for TheJobwise, an AI-powered job‐matching
+              platform. Built with Node.js, NestJS, and PostgreSQL, I developed
+              RESTful APIs for application flows, AI-driven resume processing,
+              and user account management—ensuring performance at scale and a
+              smooth user experience.
+            </p>
+            <div className="mt-1">
+              <span className="badge bg-dark me-1">Node.js</span>
+              <span className="badge bg-primary me-1">NestJS</span>
+              <span className="badge bg-info text-dark me-1">PostgreSQL</span>
+              <span className="badge bg-warning text-dark me-1">REST API</span>
+            </div>
+          </Link>
+        </div>
 
         {/* Afrohealth */}
         <div className="rounded shadow p-2 mb-2">
@@ -71,14 +109,26 @@ function SeeLatestWork() {
             <p>
               Led development of a healthcare recruitment and training portal,
               providing certification information, immigration support, and job
-              matching services. Integrated user flows for candidates and
-              employers, optimized data handling, and ensured site reliability and
-              responsiveness.
+              matching services. Designed and implemented a{" "}
+              <strong>multiple payment gateway system</strong> using the{" "}
+              <strong>Strategy Pattern</strong>, enabling seamless integration
+              of providers like Paystack, Stripe, and Flutterwave. Built an{" "}
+              <strong>AI-powered agent</strong> with <strong>Node.js</strong> to
+              automate candidate support, improve onboarding efficiency, and
+              handle real-time queries. Integrated user flows for candidates and
+              employers, optimized data handling, and ensured site reliability
+              and responsiveness.
             </p>
             <div className="mt-1">
               <span className="badge bg-primary me-1">Laravel</span>
               <span className="badge bg-info text-dark me-1">MySQL</span>
               <span className="badge bg-success me-1">API Optimization</span>
+              <span className="badge bg-warning text-dark me-1">
+                Payment Integration
+              </span>
+              <span className="badge bg-dark me-1">Strategy Pattern</span>
+              <span className="badge bg-secondary me-1">Node.js</span>
+              <span className="badge bg-danger me-1">AI Agent</span>
             </div>
           </Link>
         </div>
@@ -107,22 +157,24 @@ function SeeLatestWork() {
 
         {/* FortuneTimer */}
         <div className="rounded shadow p-2 mb-2">
-           <Link target="_blank" to="https://bet.eazyply.com/">
-          <div className="d-flex align-items-end justify-content-end">
-             <i className="fas fa-external-link-alt"></i>
-          </div>
-          <h5 className="fw-bold fs-6">Full Stack Developer – FortuneTimer</h5>
-          <p>
-            Developed a dynamic sports-betting platform using Laravel.
-            Implemented real-time odds display, user authentication, and betting
-            flows with seamless UI/UX and secure transaction handling. Also
-            develop API for the mobile app.
-          </p>
-          <div className="mt-1">
-            <span className="badge bg-primary me-1">Laravel</span>
-            <span className="badge bg-info text-dark me-1">MySQL</span>
-            <span className="badge bg-warning text-dark me-1">REST API</span>
-          </div>
+          <Link target="_blank" to="https://bet.eazyply.com/">
+            <div className="d-flex align-items-end justify-content-end">
+              <i className="fas fa-external-link-alt"></i>
+            </div>
+            <h5 className="fw-bold fs-6">
+              Full Stack Developer – FortuneTimer
+            </h5>
+            <p>
+              Developed a dynamic sports-betting platform using Laravel.
+              Implemented real-time odds display, user authentication, and
+              betting flows with seamless UI/UX and secure transaction handling.
+              Also develop API for the mobile app.
+            </p>
+            <div className="mt-1">
+              <span className="badge bg-primary me-1">Laravel</span>
+              <span className="badge bg-info text-dark me-1">MySQL</span>
+              <span className="badge bg-warning text-dark me-1">REST API</span>
+            </div>
           </Link>
         </div>
 
