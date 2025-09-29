@@ -135,7 +135,7 @@ export default function ChatBot({ onClose }) {
 
       {/* Input with Send Button */}
       <div className="d-flex align-items-center p-2 border-top mb-2">
-        <textarea
+        {/* <textarea
           className="form-control secondaryBg text-black me-2"
           placeholder="Type your message here"
           rows="1"
@@ -143,7 +143,12 @@ export default function ChatBot({ onClose }) {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && sendMessage()}
-        ></textarea>
+        ></textarea> */}
+        <input className="form-control secondaryBg text-black me-2"
+          placeholder="Type your message here"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && sendMessage()} />
         <button
           className="btn primaryBg text-white rounded-circle"
           onClick={sendMessage}
