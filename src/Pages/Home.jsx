@@ -10,6 +10,8 @@ import SkillTools from "../Components/SkillTools";
 import Footer from "../Components/Footer";
 import UseLayout from "../Components/UseLayout";
 import ChatBot from "../Components/ChatBot";
+import { DotLottiePlayer } from "@dotlottie/react-player";
+
 function Home() {
   const [showAgent, setShowAgent] = useState(false);
   return (
@@ -52,8 +54,24 @@ function Home() {
         </div>
       </div>
       {!showAgent && (
-        <button
-          className="btn btn1 primaryBg fw-bold text-white "
+        // <button
+        //   className="btn btn1 primaryBg fw-bold text-white "
+        //   style={{
+        //     position: "fixed",
+        //     right: "20px",
+        //     bottom: "80px",
+        //     zIndex: 9999,
+        //     padding: "12px 20px",
+        //     width: "180px",
+        //   }}
+        //   onClick={() => setShowAgent(!showAgent)}
+        // >
+        //   Talk to Agent
+        // </button>
+        <DotLottiePlayer
+          src="/chatbot-for -webprowale (1).lottie"
+          loop
+          autoplay
           style={{
             position: "fixed",
             right: "20px",
@@ -63,9 +81,7 @@ function Home() {
             width: "180px",
           }}
           onClick={() => setShowAgent(!showAgent)}
-        >
-          Talk to Agent
-        </button>
+        />
       )}
       {showAgent && (
         <div

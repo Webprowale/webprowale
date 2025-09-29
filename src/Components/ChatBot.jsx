@@ -6,7 +6,7 @@ const socket = io(url);
 
 export default function ChatBot({ onClose }) {
   const [messages, setMessages] = useState(() => {
-    const saved = localStorage.getItem("chatMessages");
+    const saved = sessionStorage.getItem("chatMessages");
     return saved ? JSON.parse(saved) : [];
   });
   const [input, setInput] = useState("");
@@ -16,7 +16,7 @@ export default function ChatBot({ onClose }) {
       const newMessage = { sender: "ai", text: msg };
       setMessages((prev) => {
         const updated = [...prev, newMessage];
-        localStorage.setItem("chatMessages", JSON.stringify(updated));
+        sessionStorage.setItem("chatMessages", JSON.stringify(updated));
         return updated;
       });
     });
@@ -31,7 +31,7 @@ export default function ChatBot({ onClose }) {
     const userMsg = { sender: "user", text: input };
     setMessages((prev) => {
       const updated = [...prev, userMsg];
-      localStorage.setItem("chatMessages", JSON.stringify(updated));
+      sessionStorage.setItem("chatMessages", JSON.stringify(updated));
       return updated;
     });
 
