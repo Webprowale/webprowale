@@ -78,7 +78,8 @@ function Home() {
             bottom: "80px",
             zIndex: 9999,
             padding: "12px 20px",
-            width: "180px",
+            width: "250px",
+            
           }}
           onClick={() => setShowAgent(!showAgent)}
         />
