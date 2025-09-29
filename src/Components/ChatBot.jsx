@@ -43,10 +43,11 @@ export default function ChatBot({ onClose }) {
     <div
       className="card secondaryBg shadow"
       id="chat1"
-      style={{
-        borderRadius: "15px",
-        width: "450px",
-      }}
+     style={{
+  borderRadius: "15px",
+  maxWidth: "450px",
+  width: "100%",
+}}
     >
       <div
         className="d-flex justify-content-between align-items-center p-3 mb-4 primaryBg text-white border-bottom-0"
