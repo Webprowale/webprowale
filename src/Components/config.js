@@ -1,1 +1,1 @@
-export const url ="https://agent-webprowale.onrender.com";
+export const url ="agent-webprowale-production.up.railway.app";
