@@ -81,21 +81,10 @@ function Home() {
             width: "250px",
             
           }}
-          onClick={() => setShowAgent(!showAgent)}
+          {/* onClick={() => setShowAgent(!showAgent)} */}
         />
       )}
-      {showAgent && (
-        <div
-          style={{
-            position: "fixed",
-            right: "20px",
-            bottom: "20px",
-            zIndex: 9999,
-          }}
-        >
-          <ChatBot onClose={() => setShowAgent(false)} />
-        </div>
-      )}
+     
     </div>
   );
 }
