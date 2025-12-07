@@ -12,19 +12,19 @@ function Experience() {
       });
   })
   return (
-    <div className="rounded mt-3 shadow px-3 py-4 d-flex flex-column text-center con1" ref={con} >
-    <div className="d-flex flex-column ">
-    <h3>05</h3>
-    <p className='lead fs-4'>YEARS OF SOLID EXPERIENCE</p>
-    </div>
-    <div className="d-flex flex-column">
-    <h3>30+</h3>
-    <p className='lead fs-4'> PROJECTS DELIVERED</p>
-    </div>
-    <div className="d-flex flex-column mb-4">
-    <h3>15+</h3>
-    <p className='lead fs-4'>GLOBAL CLIENTS IMPACTED</p>
-    </div>
+    <div className="rounded mt-3 shadow px-4 py-4 d-flex flex-column text-center con1" ref={con} >
+      <div className="mb-4">
+        <h2 className='fw-bold mb-1 primaryColor' style={{ fontSize: '2.5rem' }}>5+</h2>
+        <p className='text-muted mb-0' style={{ fontSize: '0.9rem', fontWeight: '500' }}>Years Building<br/>Production Systems</p>
+      </div>
+      <div className="mb-4">
+        <h2 className='fw-bold mb-1 primaryColor' style={{ fontSize: '2.5rem' }}>30+</h2>
+        <p className='text-muted mb-0' style={{ fontSize: '0.9rem', fontWeight: '500' }}>Projects Delivered<br/>& Deployed</p>
+      </div>
+      <div className="mb-2">
+        <h2 className='fw-bold mb-1 primaryColor' style={{ fontSize: '2.5rem' }}>15+</h2>
+        <p className='text-muted mb-0' style={{ fontSize: '0.9rem', fontWeight: '500' }}>Global Clients<br/>Served</p>
+      </div>
     </div>
   )
 }
