@@ -22,15 +22,37 @@ function Biography() {
           <img src={Dev} className="img-fluid"  height={100} alt="Developer" />
         </LazyLoad>
       </div>
-      <h3 className="primaryColor rounded fs-6 fw-bold mt-2">I'm Joshua Akinwale(Webprowale)</h3>
-      <p className="lead small fw-semibold">
-        Building Scalable Web Experiences That Power Innovation
-        <br />
-        As a seasoned Full-Stack Software Engineer, I specialize in delivering robust, scalable, and high-performance digital solutions using modern JavaScript frameworks and battle-tested PHP technologies.
-        <br />
-        Whether it's building interactive React/Next.js interfaces, designing powerful NestJS backends, or developing RESTful and GraphQL APIs with Laravel or CodeIgniter, I bring five years of hands-on experience to every project, crafting systems that perform reliably at scale.
+      <h3 className="primaryColor rounded fs-5 fw-bold mt-2 mb-3">Joshua Akinwale</h3>
+      <div className="mb-2">
+        <span className="badge bg-dark me-2 mb-2">Full Stack Engineer</span>
+        <span className="badge bg-primary me-2 mb-2">Lead Developer</span>
+        <span className="badge bg-success mb-2">AI Integration Specialist</span>
+      </div>
+      <p className="mb-3" style={{ lineHeight: '1.7', fontSize: '0.95rem' }}>
+        Lead engineer with <strong>5+ years</strong> building enterprise-grade applications for startups scaling to thousands of users. 
+        Specialized in architecting <strong>AI-powered platforms</strong>, designing <strong>scalable backend systems</strong>, 
+        and delivering high-performance web experiences.
       </p>
-      <Link to='/resume' className="btn fw-semibold primaryBg text-white mb-3">View Resume</Link>
+      <div className="mb-3">
+        <div className="d-flex align-items-center mb-2">
+          <i className="fas fa-check-circle text-success me-2"></i>
+          <span className="small">Led teams building AI recruitment & immigration platforms</span>
+        </div>
+        <div className="d-flex align-items-center mb-2">
+          <i className="fas fa-check-circle text-success me-2"></i>
+          <span className="small">Architected systems processing 10k+ daily API requests</span>
+        </div>
+        <div className="d-flex align-items-center mb-2">
+          <i className="fas fa-check-circle text-success me-2"></i>
+          <span className="small">Expert in React, Next.js, Node.js, NestJS, Laravel & Python</span>
+        </div>
+      </div>
+      <div className="d-flex gap-2 mb-3">
+        <Link to='/resume' className="btn fw-semibold primaryBg text-white flex-grow-1">
+          <i className="fas fa-file-alt me-2"></i>View Resume
+        </Link>
+      
+      </div>
     </div>
   );
 }
