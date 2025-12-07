@@ -10,12 +10,22 @@ import SkillTools from "../Components/SkillTools";
 import Footer from "../Components/Footer";
 import UseLayout from "../Components/UseLayout";
 import ChatBot from "../Components/ChatBot";
+import Testimonials from "../Components/Testimonials";
+import ContactForm from "../Components/ContactForm";
+// import Newsletter from "../Components/Newsletter";
+import MetaTags from "../Components/MetaTags";
 import { DotLottiePlayer } from "@dotlottie/react-player";
 
 function Home() {
   const [showAgent, setShowAgent] = useState(false);
   return (
-    <div className="container-fluid px-lg-5 pt-5 relative-position">
+    <>
+      <MetaTags 
+        title="Joshua Akinwale - Full Stack Software Engineer | Webprowale"
+        description="Experienced Full Stack Developer specializing in Laravel, React, Next.js, Python, and AI integration. Building scalable web applications and innovative solutions."
+        url="https://webprowale.com"
+      />
+      <div className="container-fluid px-lg-5 pt-5 relative-position">
       <div className=" row px-auto " style={{ gap: "20px" }}>
         <div className="col-lg d-flex flex-column ">
           <Biography />
@@ -39,6 +49,11 @@ function Home() {
             <Experience />
           </div>
           <ServiceOffer />
+           <div className="row mt-4 px-2">
+        <div className="col-12">
+          <Testimonials />
+        </div>
+      </div>
           <div className="d-block d-lg-none p-0">
             <SeeLatestWork />
           </div>
@@ -51,8 +66,24 @@ function Home() {
             <Experience />
           </div>
           <WorkWith />
+          {/* <ContactForm /> */}
+          {/* <Newsletter /> */}
+
+
         </div>
       </div>
+
+      {/* New Sections */}
+      {/* <div className="row mt-4 px-2">
+        <div className="col-12">
+          <Testimonials />
+        </div>
+      </div> */}
+
+      
+      
+      
+
       {!showAgent && (
         // <button
         //   className="btn btn1 primaryBg fw-bold text-white "
@@ -79,13 +110,12 @@ function Home() {
             zIndex: 9999,
             padding: "12px 20px",
             width: "250px",
-            
           }}
-          {/* onClick={() => setShowAgent(!showAgent)} */}
         />
       )}
      
-    </div>
+      </div>
+    </>
   );
 }
 
