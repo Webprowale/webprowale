@@ -1,9 +1,4 @@
 import React from "react";
-import LazyLoad from "react-lazyload";
-import web from "../Images/web1.png";
-import appD from "../Images/app.png";
-import graphic from "../Images/graphics.png";
-import seo from "../Images/seo.png";
 import { useRef } from 'react';
 import { gsap } from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -16,44 +11,56 @@ function ServiceOffer() {
       y: 200
       });
   })
+  const services = [
+    {
+      icon: "fas fa-code",
+      title: "Web Development",
+      description: "Full-stack web applications with React, Next.js, and Node.js"
+    },
+    {
+      icon: "fas fa-mobile-alt",
+      title: "API Development",
+      description: "RESTful & GraphQL APIs with Laravel, NestJS, and Python"
+    },
+    {
+      icon: "fas fa-brain",
+      title: "AI Integration",
+      description: "Custom AI solutions with OpenAI, Whisper, and Azure AI"
+    },
+    {
+      icon: "fas fa-database",
+      title: "Database Design",
+      description: "Scalable database architecture with PostgreSQL and MySQL"
+    }
+  ];
+
   return (
-    <div className="rounded mt-3 shadow px-3 py-3 d-flex flex-column con1">
-      <h4 className="fs-2 fw-bold mb-3 ">Service Offer</h4>
-      <div className="row" style={{ justifyContent: "space-evenly" }}>
-        <div className="col col-6 d-flex flex-column pt-2 ">
-          <LazyLoad height={200} offset={100}>
-            <img src={graphic} className="img-fluid" />
-          </LazyLoad>
-          <small className="fw-bold ms-4 fs-6">Graphic Design</small>
-        </div>
-        <div className="col col-6 d-flex flex-column">
-          <LazyLoad height={200} offset={100}>
-            <img src={seo} className="img-fluid" />
-          </LazyLoad>
-          <small className="fw-bold fs-6">SEO Optimization</small>
-        </div>
-        <div className="col col-6 d-flex flex-column">
-          <LazyLoad height={200} offset={100}>
-            <img
-              src={web}
-              className="img-fluid "
-              style={{ maxWidth: "8rem" }}
-            />
-          </LazyLoad>
-          <small className="fw-bold fs-6 ">Web Development</small>
-        </div>
-        <div className="col col-6 d-flex flex-column">
-          <LazyLoad height={200} offset={100}>
-            <img
-              src={appD}
-              className="img-fluid"
-              style={{ maxWidth: "10rem" }}
-            />
-          </LazyLoad>
-          <small className="fw-bold fs-6">App Development</small>
-        </div>
+    <div className="rounded mt-3 shadow px-4 py-4 d-flex flex-column con1" ref={con}>
+      <div className="text-center mb-4">
+        <h4 className="fw-bold mb-2" style={{ fontSize: '1.75rem' }}>Core Services</h4>
+        <p className="text-muted mb-0 small">Specialized expertise across the full development stack</p>
       </div>
-     
+      
+      <div className="row g-3">
+        {services.map((service, index) => (
+          <div key={index} className="col-6">
+            <div className="h-100 p-3 rounded border" style={{ background: '#f8f9fa' }}>
+              <div className="d-flex align-items-center mb-2">
+                <div 
+                  className="rounded-circle primaryBg text-white d-flex align-items-center justify-content-center me-2"
+                  style={{ width: '40px', height: '40px', minWidth: '40px' }}
+                >
+                  <i className={service.icon} style={{ fontSize: '1.1rem' }}></i>
+                </div>
+                <h6 className="fw-bold mb-0" style={{ fontSize: '0.95rem' }}>{service.title}</h6>
+              </div>
+              <p className="mb-0 small text-muted" style={{ fontSize: '0.8rem', lineHeight: '1.4' }}>
+                {service.description}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
