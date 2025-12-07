@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@dotlottie/react-player": "^1.6.19",
+    "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.1",
     "@react-pdf/renderer": "^3.4.2",
     "@tanstack/react-query": "^5.51.21",
@@ -22,11 +23,13 @@
     "gsap": "^3.12.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
     "react-lazyload": "^3.2.1",
     "react-paystack": "^6.0.0",
     "react-router-dom": "^6.22.3",
     "socket.io-client": "^4.8.1",
     "typed.js": "^2.1.0",
+    "vite-plugin-pwa": "^1.2.0",
     "yup": "^1.4.0"
   },
   "devDependencies": {
