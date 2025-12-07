@@ -39,6 +39,28 @@ function SeeLatestWork() {
       </p>
 
       <div className="d-flex flex-column">
+
+         {/* HostNowNow */}
+        <div className="rounded shadow p-2 mb-2">
+          <Link target="_blank" to="https://www.hostnownow.com/">
+            <div className="d-flex align-items-end justify-content-end">
+              <i className="fas fa-external-link-alt"></i>
+            </div>
+            <h5 className="fw-bold fs-6">Frontend Developer – HostNowNow</h5>
+            <p>
+              Revamped the frontend of HostNowNow, a hosting service platform,
+              delivering a modern and responsive user interface. Enhanced user
+              experience with improved navigation, visual design, and
+              performance optimizations to ensure seamless interaction across
+              all devices.
+            </p>
+            <div className="mt-1">
+              <span className="badge bg-primary me-1">UI/UX</span>
+              <span className="badge bg-success me-1">Responsive Design</span>
+            </div>
+          </Link>
+        </div>
+
         <div className="rounded shadow p-2 mb-2">
           <Link target="_blank" to="https://immigify.com/">
             <div className="d-flex align-items-end justify-content-end">
@@ -154,6 +176,8 @@ function SeeLatestWork() {
             </div>
           </Link>
         </div>
+
+      
 
         {/* FortuneTimer */}
         <div className="rounded shadow p-2 mb-2">
