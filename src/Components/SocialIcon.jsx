@@ -16,7 +16,7 @@ function SocialIcon() {
     <div
       className="rounded shadow px-1 pt-2 d-flex flex-column con1" ref={con}
     >
-        <h3 className='smal small fw-semibold my-1'>Connect Me</h3>
+        <h3 className='smal small fw-semibold m-3'>Connect Me</h3>
       <div className="d-flex px-2">
         <div className="shadow  socialCon mb-3 ">
          <Link target='_blank' to='https://github.com/Webprowale'><i className="fab fa-github"></i></Link>
