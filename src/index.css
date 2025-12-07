@@ -99,6 +99,128 @@ li{
     
 }
 
+/* Additional Mobile Responsiveness Improvements */
+@media (max-width: 768px) {
+    .blog-heading {
+        font-size: 2rem !important;
+        line-height: 1.2em !important;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .socialCon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .socialCon .fab {
+        font-size: 2rem;
+        padding: 11px;
+    }
+    
+    /* Improve form responsiveness */
+    .form-control {
+        font-size: 0.9rem;
+    }
+    
+    /* Better button sizing on mobile */
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    /* Card padding adjustments */
+    .card-body {
+        padding: 1rem;
+    }
+    
+    /* Testimonial cards on mobile */
+    .col-md-6 {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Tablet improvements */
+@media (max-width: 992px) {
+    .container-fluid {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    
+    .blog-heading {
+        font-size: 3rem !important;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 576px) {
+    .blog-heading {
+        font-size: 1.75rem !important;
+        margin-top: 5% !important;
+    }
+    
+    .socialCon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .socialCon .fab {
+        font-size: 1.5rem;
+        padding: 9px;
+    }
+    
+    /* Stack contact form and newsletter vertically */
+    .col-lg-6 {
+        margin-bottom: 1rem;
+    }
+    
+    /* Make chatbot smaller on small screens */
+    .DotLottiePlayer {
+        width: 180px !important;
+    }
+}
+
+/* Improve touch targets for mobile */
+@media (hover: none) and (pointer: coarse) {
+    .btn,
+    .card,
+    a {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+    }
+}
+
+/* Loading states */
+.spinner-border-sm {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.15rem;
+}
+
+/* Smooth transitions */
+.card,
+.btn,
+input,
+textarea {
+    transition: all 0.3s ease;
+}
+
+/* Focus states for accessibility */
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Cursor pointer for interactive elements */
+.cursor-pointer {
+    cursor: pointer;
+}
+
 #chat1 .form-outline .form-control~.form-notch div {
 pointer-events: none;
 border: 1px solid;
