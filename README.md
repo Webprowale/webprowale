@@ -1,6 +1,6 @@
 # Hi, I'm Joshua Akinwale 👋
 
-## Full-Stack Software Engineer | AI Engineer | Startup Founder
+## Full-Stack Software Engineer | AI Engineer
 
 I build AI-powered products, scalable SaaS platforms, and business automation systems that solve real-world problems.
 
