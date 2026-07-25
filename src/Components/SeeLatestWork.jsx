@@ -27,6 +27,81 @@ function SeeLatestWork() {
       </div>
 
       <div className="d-flex flex-column">
+        {/* Career AI */}
+        <div className="rounded shadow-sm border p-3 mb-3 hover-lift" style={{ transition: 'all 0.3s ease' }}>
+          <div className="d-flex justify-content-between align-items-start mb-3">
+            <div>
+              <h5 className="fw-bold mb-1" style={{ fontSize: '1.1rem' }}>Career AI</h5>
+              <p className="text-muted small mb-0">Founder & Lead Engineer</p>
+            </div>
+            <Link target="_blank" to="https://usecareera.io/" className="btn btn-sm btn-outline-secondary">
+              <i className="fas fa-external-link-alt"></i>
+            </Link>
+          </div>
+          <p className="mb-3" style={{ lineHeight: '1.6' }}>
+            Built an AI-powered career platform that helps job seekers optimize resumes, generate tailored cover letters, prepare for interviews, and discover relevant opportunities. Designed a scalable architecture using Python, FastAPI, NestJS, PostgreSQL, vector search, and LLM integrations with Azure OpenAI and OpenAI APIs.
+          </p>
+          <div className="d-flex flex-wrap gap-2">
+            <span className="badge bg-dark">Python</span>
+            <span className="badge bg-success">FastAPI</span>
+            <span className="badge bg-primary">AI Agents</span>
+            <span className="badge bg-warning text-dark">LLM</span>
+            <span className="badge bg-secondary">PostgreSQL</span>
+            <span className="badge bg-info text-dark">Azure</span>
+            <span className="badge bg-danger">OpenAI</span>
+          </div>
+        </div>
+
+        {/* PrymeKids */}
+        <div className="rounded shadow-sm border p-3 mb-3 hover-lift" style={{ transition: 'all 0.3s ease' }}>
+          <div className="d-flex justify-content-between align-items-start mb-3">
+            <div>
+              <h5 className="fw-bold mb-1" style={{ fontSize: '1.1rem' }}>PrymeKids</h5>
+              <p className="text-muted small mb-0">Lead Backend & AI Engineer</p>
+            </div>
+            <Link target="_blank" to="https://prymekids.com/" className="btn btn-sm btn-outline-secondary">
+              <i className="fas fa-external-link-alt"></i>
+            </Link>
+          </div>
+          <p className="mb-3" style={{ lineHeight: '1.6' }}>
+            Led backend engineering for an online learning platform serving children through live virtual classrooms. Designed secure APIs, payment workflows, authentication, AI-assisted learning features, and cloud infrastructure while supporting scalable content delivery and real-time educational experiences.
+          </p>
+          <div className="d-flex flex-wrap gap-2">
+            <span className="badge bg-primary">Laravel</span>
+            <span className="badge bg-dark">Python</span>
+            <span className="badge bg-info text-dark">Azure</span>
+            <span className="badge bg-danger">AI</span>
+            <span className="badge bg-warning text-dark">REST API</span>
+            <span className="badge bg-secondary">PostgreSQL</span>
+            <span className="badge bg-success">Payments</span>
+          </div>
+        </div>
+
+        {/* XEL */}
+        <div className="rounded shadow-sm border p-3 mb-3 hover-lift" style={{ transition: 'all 0.3s ease' }}>
+          <div className="d-flex justify-content-between align-items-start mb-3">
+            <div>
+              <h5 className="fw-bold mb-1" style={{ fontSize: '1.1rem' }}>XEL</h5>
+              <p className="text-muted small mb-0">Backend & AI Engineer</p>
+            </div>
+            <Link target="_blank" to="https://xel.care/" className="btn btn-sm btn-outline-secondary">
+              <i className="fas fa-external-link-alt"></i>
+            </Link>
+          </div>
+          <p className="mb-3" style={{ lineHeight: '1.6' }}>
+            Architected the backend and AI infrastructure for an engineering education platform where students build real-world software with professional engineers. Developed scalable APIs, authentication, project management workflows, AI-assisted mentoring features, and cloud deployment infrastructure supporting personalized learning experiences.
+          </p>
+          <div className="d-flex flex-wrap gap-2">
+            <span className="badge bg-success">FastAPI</span>
+            <span className="badge bg-dark">Python</span>
+            <span className="badge bg-danger">AI</span>
+            <span className="badge bg-secondary">PostgreSQL</span>
+            <span className="badge bg-info text-dark">Azure</span>
+            <span className="badge bg-warning text-dark">Docker</span>
+            <span className="badge bg-primary">Backend</span>
+          </div>
+        </div>
+
         {/* HostNowNow */}
         <div className="rounded shadow-sm border p-3 mb-3 hover-lift" style={{ transition: 'all 0.3s ease' }}>
           <div className="d-flex justify-content-between align-items-start mb-3">
