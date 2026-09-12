@@ -1,8 +1,8 @@
 import { Helmet } from 'react-helmet-async';
 
 function MetaTags({ 
-  title = "Joshua Akinwale - Full Stack Software Engineer", 
-  description = "Experienced Full Stack Developer specializing in Laravel, React, Next.js, and AI integration. Building scalable web applications and innovative solutions.",
+  title = "Webprowale - AI Engineering Company | AI Agents, Automation & Custom AI Software", 
+  description = "Webprowale is an AI engineering company that helps businesses build, deploy, and automate intelligent AI systems, including AI agents, business automation, RAG and knowledge systems, voice AI, AI integrations, and custom AI software.",
   image = "https://webprowale.com/og-image.jpg",
   url = "https://webprowale.com",
   type = "website"
@@ -19,7 +19,7 @@ function MetaTags({
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
-      <meta property="og:site_name" content="Webprowale Portfolio" />
+      <meta property="og:site_name" content="Webprowale" />
       
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -27,12 +27,11 @@ function MetaTags({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
-      <meta name="twitter:creator" content="@webprowale" />
       
       {/* Additional Meta Tags */}
       <meta name="robots" content="index, follow" />
       <meta name="language" content="English" />
-      <meta name="author" content="Joshua Akinwale (Webprowale)" />
+      <meta name="author" content="Webprowale" />
       <link rel="canonical" href={url} />
     </Helmet>
   );

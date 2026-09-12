@@ -16,13 +16,13 @@ function SocialIcon() {
     <div
       className="rounded shadow px-1 pt-2 d-flex flex-column con1" ref={con}
     >
-        <h3 className='smal small fw-semibold m-3'>Connect Me</h3>
+        <h3 className='smal small fw-semibold m-3'>Contact Us</h3>
       <div className="d-flex px-2">
         <div className="shadow  socialCon mb-3 ">
-         <Link target='_blank' to='https://github.com/Webprowale'><i className="fab fa-github"></i></Link>
+         <Link to='mailto:contact@webprowale.com'><i className="fas fa-envelope"></i></Link>
         </div>
         <div className="mx-2 shadow  socialCon">
-         <Link target='_blank' to='https://www.linkedin.com/in/webprowale-akinwale'> <i className="fab fa-linkedin-in"></i> </Link>
+         <Link to='tel:+2349035874126'> <i className="fas fa-phone"></i> </Link>
         </div>
       </div>
     </div>

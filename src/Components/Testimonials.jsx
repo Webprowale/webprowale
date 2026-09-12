@@ -5,25 +5,25 @@ function Testimonials() {
     {
       name: "Sarah Mitchell",
       role: "Project Manager, Immigify",
-      text: "Joshua led our engineering team brilliantly in building Immigify's AI-powered platform. His expertise in Laravel, React, and Python was instrumental in delivering our AI Interview system on time and exceeding expectations.",
+      text: "Webprowale led our engineering team brilliantly in building Immigify's AI-powered platform. Their expertise in Laravel, React, and Python was instrumental in delivering our AI Interview system on time and exceeding expectations.",
       image: "https://ui-avatars.com/api/?name=Sarah+Mitchell&background=8121d0&color=fff&size=128"
     },
     {
       name: "Michael Foster",
       role: "Product Lead, TheJobwise",
-      text: "Working with Joshua on our backend was exceptional. His Node.js and NestJS expertise helped us build a scalable job-matching platform that handles thousands of users seamlessly. Highly recommended!",
+      text: "Working with Webprowale on our backend was exceptional. Their Node.js and NestJS expertise helped us build a scalable job-matching platform that handles thousands of users seamlessly. Highly recommended!",
       image: "https://ui-avatars.com/api/?name=Michael+Foster&background=8121d0&color=fff&size=128"
     },
     {
       name: "Emily Rodriguez",
       role: "Founder, Afrohealth",
-      text: "Joshua's full-stack capabilities transformed our healthcare recruitment portal. The multiple payment gateway system and AI agent he built streamlined our operations significantly. Outstanding technical expertise!",
+      text: "Webprowale's full-stack capabilities transformed our healthcare recruitment portal. The multiple payment gateway system and AI agent they built streamlined our operations significantly. Outstanding technical expertise!",
       image: "https://ui-avatars.com/api/?name=Emily+Rodriguez&background=8121d0&color=fff&size=128"
     },
     {
       name: "David Chen",
       role: "CTO, Konvas AI",
-      text: "Joshua's backend engineering skills are top-notch. He optimized our APIs to handle 10k+ daily requests and seamlessly integrated our Shopify storefronts. His Laravel expertise was exactly what we needed.",
+      text: "Webprowale's backend engineering skills are top-notch. They optimized our APIs to handle 10k+ daily requests and seamlessly integrated our Shopify storefronts. Their Laravel expertise was exactly what we needed.",
       image: "https://ui-avatars.com/api/?name=David+Chen&background=8121d0&color=fff&size=128"
     }
   ];
